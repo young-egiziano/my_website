@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Ahmed Ellehleh</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/275f18c1d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: #666666;
+      }
+
+      .header {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h1 class="name"><a href="index.html">Ahmed Ellehleh</a></h1>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <span>About ▾</span>
+          <ul class="features-menu">
+            <li><a href="hard-skills.html">Hard Skills</a></li>
+            <li><a href="soft-skills.html">Soft Skills</a></li>
+          </ul>
+        </li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+
+    <section class="contact-form">
+      <div class="container">
+        <h1 class="color-primary">Contattaci</h1>
+        <p>Completa coi tuoi dati</p>
+        <form action="">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Messaggio</label>
+            <textarea name="message" id="message"></textarea>
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <div class="container">
+        <div class="info-box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Where?</h3>
+          <p>Lombardy, Brescia, Pontevico</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>392 685 6401</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email address</h3>
+          <p>ellehleh14@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Ahmed Ellehleh &copy; 2020, All rights reserved</p>
+    </footer>
+  </body>
+</html>
