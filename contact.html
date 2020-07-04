@@ -4,20 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Ahmed Ellehleh</title>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:500px)"
+      href="css/mobile.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/275f18c1d9.js"
       crossorigin="anonymous"
     ></script>
-    <style>
-      body {
-        background-color: #666666;
-      }
-
-      .header {
-        display: flex;
-      }
-    </style>
   </head>
   <body>
     <header class="header">
@@ -39,11 +35,11 @@
 
     <section class="contact-form">
       <div class="container">
-        <h1 class="color-primary">Contattaci</h1>
-        <p>Completa coi tuoi dati</p>
+        <h1 class="color-primary">Contact me</h1>
+        <p>tell me what you need</p>
         <form action="">
           <div class="form-group">
-            <label for="name">Nome</label>
+            <label for="name">Name</label>
             <input type="text" name="name" id="name" />
           </div>
           <div class="form-group">
@@ -51,7 +47,7 @@
             <input type="email" name="email" id="email" />
           </div>
           <div class="form-group">
-            <label for="message">Messaggio</label>
+            <label for="message">Messagge</label>
             <textarea name="message" id="message"></textarea>
             <button class="btn" type="submit">Submit</button>
           </div>

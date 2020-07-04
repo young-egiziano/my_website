@@ -1,0 +1,26 @@
+.header {
+  flex-direction: column;
+  text-align: center;
+}
+
+.photo {
+  display: none;
+}
+
+.content {
+  width: 100%;
+}
+
+.plans,
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-info .container {
+  flex-direction: column;
+}
+.contact-info i {
+  display: none;
+}

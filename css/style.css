@@ -9,6 +9,7 @@ body {
   height: 200px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #e9e3e3;
+  background-color: #666666;
 }
 
 .btn {
@@ -125,11 +126,10 @@ a:hover {
 }
 
 .intro {
-  padding: 170px 20px 10px 70px;
-  border: #ed1c24 solid 0px;
+  padding: 180px 20px 10px 20px;
 
-  background-color: rgb(51, 51, 51, 0.8);
-  margin: 0 30px 30px 30px;
+  background-color: #444;
+  margin: 0 10px 30px 30px;
   border-radius: 10px;
 }
 
@@ -149,13 +149,13 @@ a:hover {
 }
 
 .plans {
-  padding: 40px 20px 40px 70px;
+  padding: 40px 20px 40px 30px;
 
   border: #ed1c24 solid 0px;
 
-  background-color: rgb(51, 51, 51, 0.8);
+  background-color: #444;
 
-  margin: 30px;
+  margin: 0 10px 30px 30px;
   border-radius: 10px;
 }
 
@@ -189,7 +189,7 @@ a:hover {
 
 .contact-form {
   padding: 2rem 5rem;
-  padding-top: 170px;
+  padding-top: 180px;
 }
 
 .contact-form h1 {
@@ -245,8 +245,7 @@ a:hover {
   text-align: center;
 }
 
-.contact-info i,
-.contact-info h3 {
+.contact-info i {
   margin-bottom: 1rem;
 }
 
@@ -262,13 +261,18 @@ a:hover {
 }
 
 .hard-1 {
-  padding: 20px;
-  margin: 50px 100px;
+  padding: 0px;
+  margin: auto;
+  margin-bottom: 60px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
   display: flex;
   border: #ed1c24 solid 2px;
   border-radius: 5px;
-
+  flex-wrap: wrap;
   background: #555;
+  text-align: center;
 }
 
 .hard-1-img img {
@@ -282,13 +286,14 @@ a:hover {
 
 .hard-1-content h3 {
   font-size: 3rem;
-  padding: 20px;
+  padding: 20px 3px;
 }
 
 .hard-1-content p {
   font-size: 2.3rem;
-  padding: 20px;
-  padding-right: 50px;
+  padding: 3px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .item {
