@@ -24,3 +24,11 @@
 .contact-info i {
   display: none;
 }
+
+.contact-info p {
+  border-bottom: #ed1c24 solid 2px;
+}
+
+.contact-info h3 {
+  border-top: #ed1c24 solid 1px;
+}
